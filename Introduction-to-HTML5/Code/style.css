@@ -1,0 +1,25 @@
+header, h1{
+    text-align: center;
+    background-color: lightblue;
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+    position: static;
+}
+header{
+    margin-bottom: 50px;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+table{
+    background-color: lightcoral;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Danel Muñoz</title>
+    <style>
+        .nav-bar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .nav-element {
+            float: left;
+        }
+
+        .nav-element a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        .nav-element a:hover {
+            background-color: #111;
+        }
+        h1{
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            margin: 0px;
+            border-bottom: 1px solid #fff;
+        }
+        .favorite-foods h2{
+            background-color: rgb(79, 63, 63);
+            color: #fff;
+        }
+        .achievements h2{
+            background-color: rgb(79, 63, 63);
+            color: #fff;
+        }
+        .about-me h2{
+            background-color: rgb(79, 63, 63);
+            color: #fff;
+        }
+        img{
+            width: 30%;
+        }
+        .img-footer{
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jorge Danel Muñoz</h1>
+        <nav class="menu">
+            <ul class="nav-bar">
+                <li class="nav-element"><a href="#favorite-foods">One</a></li>
+                <li class="nav-element"><a href="#achievements">Two</a></li>
+                <li class="nav-element"><a href="#about-me">Three</a></li>
+                <li class="nav-element"><a href="#">My Dog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="favorite-foods">
+        <h2>Favorite Foods</h2>
+        <ul>
+            <li class="food-element">Avocado</li>
+            <li class="food-element">Hamburguers</li>
+            <li class="food-element">Salads</li>
+            <li class="food-element">Beer</li>
+        </ul>
+    </div>
+    <div id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li class="achievement-elemnt">Progress in this course (100%) <progress value="100" max="100">100%</progress></li>
+            <li class="achievement-elemnt">Progress in the Specialization capstone (20%) <progress value="20" max="100">20%</progress></li>
+            <li class="achievement-elemnt">Progress in life goals(40%) <progress value="40" max="100">60%</progress></li>
+        </ul>
+    </div>
+    <div id="about-me">
+        <h2>More About Me</h2>
+        <details>
+            <summary>My Childhood</summary>
+            <p>I grew up in Tula Hidalgo. I lived in Veracruz near Gulf of Mexico but I prefered the Pacific Ocean.</p>
+        </details>
+        
+        
+    </div>
+    <div id="my-dog">
+        <h2>My Dog</h2>
+        <p>Let me introduce you Eren, this buddy is adorable and relaxed. </p>
+        <img src="https://cdn.shopify.com/s/files/1/0570/0645/6999/files/my-dog.jpg?v=1625583218" alt="">
+    </div>
+    <br>
+    <footer>
+        <img class="img-footer" src=" http://www.intro-webdesign.com/images/newlogo.png" alt="">
+        This page was created by Jorge Danel Muñoz & Collen van Lent. To learn more about web design, visit <a href="http://intro-webdesign.com/" target="_blank">Intro to Web Design</a>.
+    </footer>
+</body>
+</html>
