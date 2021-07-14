@@ -43,7 +43,6 @@ nav a:active{
    margin:3px auto;
 }
 .left{
-    float:left;
     display: inline-block;
     background-color: rgb(50, 130, 11);
     width: 20%;
