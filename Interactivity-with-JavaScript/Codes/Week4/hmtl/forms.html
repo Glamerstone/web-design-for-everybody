@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <script src="../js/forms.js"></script>
+</head>
+<body>
+    <!-- <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"><br>
+            <label>Email:<input type="email" name="email"></label><br>
+            <label for="birth">Birth</label>
+            <input type="date" id="value" valule="birth"><br>
+            <input type="submit" value="Click Here">
+        </fieldset>
+        
+    </form> -->
+    <form>
+        <label>Preferred email adress:
+            <input type="email" id="email_addr" 
+            name="email1" value="me@me.com" required>
+        </label>
+        <br>
+        <label>Repeat email adress:
+            <input type="email" id="email_repeat" 
+            name="email2" required onchange="check()">
+        </label>
+        <input type="submit" value="Confirm emails!">
+
+    </form>
+    
+</body>
+</html>
